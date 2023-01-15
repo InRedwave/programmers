@@ -17,7 +17,7 @@ public class Main_11022 {
 			System.out.println("Case #" + i + ": " + first + " + " + second + " = " + (first+second));
 			
 		}
-		
+		sc.close();
 		
 		
 	}
