@@ -33,6 +33,7 @@ public class Main_1 {
 			System.out.print(x + " ");
 		}
 		
+		
 		sc.close();
 		
 		
