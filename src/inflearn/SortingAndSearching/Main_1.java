@@ -34,5 +34,7 @@ public class Main_1 {
 		}
 		
 		sc.close();
+		
+		
 	}
 }
