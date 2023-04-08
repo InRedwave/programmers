@@ -6,13 +6,23 @@ public class Main_2 {
 	public String solution(String str) {
 		String answer ="";
 		
+//		for(char x : str.toCharArray()) {
+//			if(x>=97 && x<=122) {
+//				answer += (char)(x-32);
+//			} else {
+//				answer += (char)(x+32);
+//			}
+//		}
+		
 		for(char x : str.toCharArray()) {
-			if(x>=97 && x<=122) {
-				answer += (char)(x-32);
+			if(Character.isLowerCase(x)) {
+				answer += Character.toUpperCase(x);
 			} else {
-				answer += (char)(x+32);
+				answer += Character.toLowerCase(x);
 			}
 		}
+		
+		
 		return answer;
 	}
 	
