@@ -19,9 +19,19 @@ public class Main_3 {
 		}
 		//마지막 단어 남으면 ' ' 에 의해 잘라내지지 않기 때문에 
 		//비교가 적용되지 않음. -> 마지막 처리 if문 필요하다.
-		if(str.length()>m) answer = str;
-		
+		if(str.length()>m) answer = str;	
 		return answer;
+//		String[] array = str.split(" ");
+//		
+//		for(String a : array) {
+//			int len = a.length();
+//			if(len>m) {
+//				m=len;
+//				answer = a;
+//			}
+//			
+//		}
+		
 	}
 	
 	
